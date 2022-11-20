@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(59, 59, 59);
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.start input {
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+}
+
+.start button {
+    padding: 4px 16px;
+    border-radius: 4px;
+    border: none;
+}
+
+.baton-left {
+    padding: 3rem;
+    font-size: 32px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.game {
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.stick {
+    width: 8px;
+    height: 200px;
+    background-color: rgb(112, 63, 22);
+    border-radius: 10px;
+    border: 1px solid rgb(53, 27, 6);
+}
+
+.turn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.turn button {
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.turn div {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.player {
+    background-color: rgb(61, 98, 167);
+}
+
+.player-baton {
+    background-color: rgb(255, 255, 255);
+}
+
+.none {
+    display: none;
+}
